@@ -1,11 +1,11 @@
-GET http://localhost:3001/api/notes
+GET https://render-be.onrender.com/api/notes
 
 ###
 
-POST  http://localhost:3001/api/notes 
+POST  https://render-be.onrender.com/api/notes
 Content-Type: application/json
 
 {
-  "content": "",
+  "content": "poo foo bar",
   "important": ""
 }
